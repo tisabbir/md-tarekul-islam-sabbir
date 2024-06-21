@@ -10,7 +10,7 @@ const Nav = () => {
         <Link href={'/skills'}>Skills</Link>
       </li>
       <li>
-        <a>Projects</a>
+        <Link href={'/projects'}>Projects</Link>
       </li>
       <li>
         <a>Resume</a>
