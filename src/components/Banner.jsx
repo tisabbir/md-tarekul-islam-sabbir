@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-around gap-10 items-center">
       <div className="flex-1 space-y-6">
         <h3 className="text-4xl text-[#2A1454]"> I am Sabbir </h3>
         <h1 className="text-6xl text-[#8750F5] font-bold">Web Developer</h1>
@@ -31,7 +31,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="flex-1">
-        <img className="bg-black" src="Sabbir.png" />
+        <img className="w-96 rounded-xl mx-auto" src="Sabbir.png" />
       </div>
     </div>
   );
