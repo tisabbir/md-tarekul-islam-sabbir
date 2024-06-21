@@ -23,7 +23,7 @@ const ProjectsPage = () => {
 
                 <h1 className='text-2xl text-[#2A1454] font-bold  text-center'>3. Impact Volens</h1>
                 <p className='text-center'>Volunteer Management Platform</p>
-            <embed src="https://impact-volens.web.app/" className='w-full h-96 border-base-200 mt-6 border-2 rounded-xl'/>
+            <embed src="https://impact-volens.web.app/" className='w-full h-96 border-base-200 mt-6 mb-12 border-2 rounded-xl'/>
             </div>
         </div>
     );

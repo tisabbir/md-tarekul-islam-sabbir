@@ -13,16 +13,16 @@ const Nav = () => {
         <Link href={'/projects'}>Projects</Link>
       </li>
       <li>
-        <a>Resume</a>
+        <Link href={'/resume'}>Resume</Link>
       </li>
       <li>
-        <a>Contact</a>
+        <Link href={'/contact'}>Contact</Link>
       </li>
     </>
   );
   return (
-    <div>
-      <div className="navbar bg-base-100 mt-6">
+    <div className="">
+      <div className="navbar mt-6">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

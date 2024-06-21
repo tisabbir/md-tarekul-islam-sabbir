@@ -14,7 +14,7 @@ const SkillsPage = () => {
         }
       />
 
-      <div className="flex gap-4 mt-12 justify-between">
+      <div className="flex gap-4 mt-12 justify-between text-[#8750F5]">
 
         <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center">
           <FaReact className="text-8xl mx-auto" />
