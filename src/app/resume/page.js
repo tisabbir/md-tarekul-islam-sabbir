@@ -1,9 +1,17 @@
+'use client'
 import SectionTitle from "@/components/SectionTitle";
 import { FaGraduationCap } from "react-icons/fa";
 import { GiAchievement, GiExtraTime } from "react-icons/gi";
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 
 const ResumePage = () => {
+    useEffect(()=>{
+        Aos.init()
+    },[])
+
     return (
         <div className="">
             <SectionTitle heading={'My Resume'} subheading={'Explore infos about me'} />
@@ -11,7 +19,7 @@ const ResumePage = () => {
             <div className="mt-12">
                 <h1 className="text-4xl text-[#8750F5] flex gap-3 items-center"><FaGraduationCap /> EDUCATION</h1>
 
-                <div className="bg-white p-6 rounded-xl space-y-4 mt-6">
+                <div data-aos="fade-right" className="bg-white p-6 rounded-xl space-y-4 mt-6">
                     <h3 className="text-xl text-[#8750F5] ">2020-Present</h3>
                     <h2 className="text-2xl text-black">Noakhali Science & Technology University</h2>
                     <p>Bachelor of Science - Biochemistry & Molecular Biology</p>
@@ -26,7 +34,7 @@ const ResumePage = () => {
             <div className="mt-12">
                 <h1 className="text-4xl text-[#8750F5] flex gap-3 items-center"><GiExtraTime /> EXTRACURRICULAR ACTIVITIES</h1>
 
-                <div className="bg-white p-6 rounded-xl space-y-4 mt-6">
+                <div  className="bg-white p-6 rounded-xl space-y-4 mt-6">
                     <h3 className="text-xl text-[#8750F5] ">2024-Present</h3>
                     <h2 className="text-2xl text-black">NSTU Research Society</h2>
                     <p>Office & Records Secretary</p>
