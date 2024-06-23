@@ -1,10 +1,18 @@
+'use client'
 import SectionTitle from "@/components/SectionTitle";
 import React from "react";
 import { FaNodeJs, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiExpress, SiFirebase, SiMongodb, SiTailwindcss } from "react-icons/si";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const SkillsPage = () => {
+
+  useEffect(()=> {
+    Aos.init(    { duration: 1000,} )
+  },[])
   return (
     <div>
       <SectionTitle
@@ -14,7 +22,7 @@ const SkillsPage = () => {
         }
       />
 
-      <div className="flex gap-4 mt-12 justify-between text-[#8750F5]">
+      <div data-aos='fade-down' className="flex gap-4 mt-12 justify-between text-[#8750F5]">
 
         <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center">
           <FaReact className="text-8xl mx-auto" />
