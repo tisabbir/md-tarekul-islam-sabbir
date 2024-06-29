@@ -53,6 +53,11 @@ const ResumePage = () => {
 
                 <div data-aos="fade-up" data-aos-duration="1000" className="bg-white p-6 rounded-xl space-y-4 mt-6">
                     <h3 className="text-xl text-[#8750F5] ">2024</h3>
+                    <h2 className="text-2xl text-black">Software Project Showcase Competition 2024</h2>
+                    <p>Runner-Up</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" className="bg-white p-6 rounded-xl space-y-4 mt-6">
+                    <h3 className="text-xl text-[#8750F5] ">2024</h3>
                     <h2 className="text-2xl text-black">Hult Prize 2024</h2>
                     <p>First Runner-Up (On Campus)</p>
                 </div>
