@@ -4,6 +4,7 @@ import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Image from "next/image";
 
 const Banner = () => {
   useEffect(() => {
@@ -39,7 +40,7 @@ const Banner = () => {
         </div>
       </div>
       <div data-aos="fade-right" className="flex-1">
-        <img className="w-96 rounded-xl mx-auto" src="Sabbir.png" />
+        <Image className="w-96 rounded-xl mx-auto" src="/Sabbir.png" alt="my-image"  width={500} height={600} />
       </div>
     </div>
   );

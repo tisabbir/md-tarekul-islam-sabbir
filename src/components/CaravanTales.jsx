@@ -1,20 +1,20 @@
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import Image from "next/image";
 const CaravanTales = () => {
   return (
     <div className="mt-12 mb-12">
       <div className="hero bg-[#ffffff] rounded-xl">
         <div className="hero-content flex-col lg:flex-row gap-8">
-          <img src="caravan-tales.png" className="max-w-sm rounded-lg shadow-2xl" />
+          <Image src="/caravan-tales.png" alt="project-image" width={600} height={400} className="max-w-sm rounded-lg shadow-2xl" />
           <div>
             <h1 className="text-2xl font-bold">Caravan Tales</h1>
             <p className="py-6">
-            'Caravan Tales' is a tourism website that helps travelers to find the best tourist spots in central Asia. 
+            Caravan Tales is a tourism website that helps travelers to find the best tourist spots in central Asia. 
             </p>
             <h2 className="text-lg font-semibold">Key Features:</h2>
             <ul className=" ml-6">
               <li className="list-disc ">
-                {" "}
                 Seamless Blood Donation Request Submission
               </li>
               <li className="list-disc ">
