@@ -25,9 +25,13 @@ const ProjectsPage = () => {
         }
       />
 
-      <GiveLife />
-        <ImpactVolens />
-        <CaravanTales />
+      <div data-aos="fade-up"><GiveLife  /></div>
+      <div data-aos="fade-up"><ImpactVolens /></div>
+      <div data-aos="fade-up"><CaravanTales /></div>
+
+      
+      
+      
     </div>
   );
 };
