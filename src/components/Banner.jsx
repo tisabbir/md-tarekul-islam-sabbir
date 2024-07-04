@@ -16,8 +16,7 @@ const Banner = () => {
         <h3 className="text-4xl text-[#2A1454]"> I am Sabbir </h3>
         <h1 className="text-6xl text-[#8750F5] font-bold">Web Developer</h1>
         <p className="text-xl">
-          I break down complex user experinece problems to create integritiy
-          focussed solutions that connect billions of people
+        I am a passionate Front-End Web Developer with a strong desire to create beautiful, functional, and user-friendly web experiences. I find great satisfaction in witnessing my codes translate into functional and valuable web applications. 
         </p>
         <div className="flex gap-4 items-center">
           <Link
