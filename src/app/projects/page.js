@@ -1,41 +1,95 @@
-'use client'
-import SectionTitle from '@/components/SectionTitle';
-import React from 'react';
+"use client";
+import SectionTitle from "@/components/SectionTitle";
+import React from "react";
 
 import Aos from "aos";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 const ProjectsPage = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
 
-    useEffect(()=> {
-        Aos.init(    { duration: 1000,} )
-      },[])
-    return (
-        <div>
-            <SectionTitle heading={'My Projects'} subheading={'We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.'} />
+    //data-aos='fade-down'
+  }, []);
+  return (
+    <div>
+      <SectionTitle
+        heading={"My Projects"}
+        subheading={
+          "We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers."
+        }
+      />
 
-            <div className='mt-12'>
+      <div className="mt-12 mb-12">
+        <div className="hero bg-[#ffffff] rounded-xl">
+          <div className="hero-content flex-col lg:flex-row gap-8">
+            <img
+              src="give-life.png"
+              className="max-w-sm rounded-lg shadow-2xl"
+            />
+            <div>
+              <h1 className="text-2xl font-bold">Give Life</h1>
+              <p className="py-6">
+                Give Life simplifies blood donation management with secure
+                registration, role-based access, and accurate location
+                integration. It handles donation requests, tracks statuses, and
+                offers secure login and payment options.
+              </p>
+              <h2 className="text-lg font-semibold">Key Features:</h2>
+              <ul className=" ml-6">
+                <li className="list-disc ">
+                  {" "}
+                  Seamless Blood Donation Request Submission
+                </li>
+                <li className="list-disc ">
+                  {" "}
+                  Donation Status Tracking and Management
+                </li>
+                <li className="list-disc "> Content Management Capabilities</li>
+              </ul>
 
-                <h1 className='text-2xl text-[#2A1454] font-bold  text-center'>1. Give Life</h1>
-                <p className='text-center'>Blood Donation Management Application</p>
-            <embed data-aos='fade-down' src="https://give-life-bd037.web.app/" className='w-full h-96 border-base-200 mt-6 border-2 rounded-xl'/>
+              <div className="mt-4 flex gap-2">
+                <button className="btn btn-xs bg-[#8750F5] text-white">
+                  MongoDB
+                </button>
+                <button className="btn btn-xs bg-[#8750F5] text-white">
+                  Express
+                </button>
+                <button className="btn btn-xs bg-[#8750F5] text-white">
+                  Node
+                </button>
+                <button className="btn btn-xs bg-[#8750F5] text-white">
+                  React
+                </button>
+                <button className="btn btn-xs bg-[#8750F5] text-white">
+                  JavaScript
+                </button>
+                <button className="btn btn-xs bg-[#8750F5] text-white">
+                  Tailwind CSS
+                </button>
+                <button className="btn btn-xs bg-[#8750F5] text-white">
+                  HTML
+                </button>
+              </div>
+
+              <div className="flex gap-4">
+                <a href='https://give-life-bd037.web.app/' className="mt-4 btn ">
+                  <FaArrowUpRightFromSquare />
+                </a>
+                <a href="https://github.com/tisabbir/give-life-client" className="mt-4 btn ">
+                  <FaGithub />
+                </a>
+              </div>
             </div>
-
-            <div className='mt-12'>
-
-                <h1 className='text-2xl text-[#2A1454] font-bold  text-center'>2. Caravan Tales</h1>
-                <p className='text-center'>Tourism Management Website</p>
-            <embed data-aos='fade-down' src="https://caravan-tales.web.app/" className='w-full h-96 border-base-200 mt-6 border-2 rounded-xl'/>
-            </div>
-            <div className='mt-12'>
-
-                <h1 className='text-2xl text-[#2A1454] font-bold  text-center'>3. Impact Volens</h1>
-                <p className='text-center'>Volunteer Management Platform</p>
-            <embed data-aos='fade-down' src="https://impact-volens.web.app/" className='w-full h-96 border-base-200 mt-6 mb-12 border-2 rounded-xl'/>
-            </div>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default ProjectsPage;
