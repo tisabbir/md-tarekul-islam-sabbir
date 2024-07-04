@@ -14,7 +14,7 @@ const ContactPage = () => {
         Aos.init(    { duration: 1000,} )
       },[])
     return (
-        <div>
+        <div className="mb-24">
             <SectionTitle heading={'Contacts'} subheading={'Stay in touch with me'} />
 
            <div className="flex items-center justify-center gap-8">

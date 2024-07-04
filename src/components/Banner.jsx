@@ -11,7 +11,7 @@ const Banner = () => {
     Aos.init(    { duration: 1000,} )
   },[])
   return (
-    <div className="flex justify-around gap-10 items-center">
+    <div className="flex justify-around gap-10 items-center mb-12">
       <div data-aos='fade-left' className="flex-1 space-y-6">
         <h3 className="text-4xl text-[#2A1454]"> I am Sabbir </h3>
         <h1 className="text-6xl text-[#8750F5] font-bold">Web Developer</h1>

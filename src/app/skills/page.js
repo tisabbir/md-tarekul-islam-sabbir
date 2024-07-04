@@ -14,7 +14,7 @@ const SkillsPage = () => {
     Aos.init(    { duration: 1000,} )
   },[])
   return (
-    <div>
+    <div className="mb-4">
       <SectionTitle
         heading={"My SKills"}
         subheading={
