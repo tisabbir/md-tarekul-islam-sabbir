@@ -19,7 +19,7 @@ const ResumePage = () => {
             <SectionTitle heading={'My Resume'} subheading={'Explore infos about me'} />
 
             <div className="mt-12">
-                <h1 className="text-4xl text-[#8750F5] flex gap-3 items-center"><FaGraduationCap /> EDUCATION</h1>
+                <h1 className="text-2xl md:text-4xl text-[#8750F5] flex gap-3 items-center"><FaGraduationCap /> EDUCATION</h1>
 
                 <div data-aos="fade-up" data-aos-duration="1000" className="bg-white p-6 rounded-xl space-y-4 mt-6">
                     <h3 className="text-xl text-[#8750F5] ">2020-Present</h3>
@@ -34,7 +34,7 @@ const ResumePage = () => {
 
             </div>
             <div className="mt-12">
-                <h1 className="text-4xl text-[#8750F5] flex gap-3 items-center"><GiExtraTime /> EXTRACURRICULAR ACTIVITIES</h1>
+                <h1 className="text-2xl md:text-4xl text-[#8750F5] flex gap-3 items-center"><GiExtraTime /> EXTRACURRICULAR ACTIVITIES</h1>
 
                 <div data-aos="fade-up" data-aos-duration="1000" className="bg-white p-6 rounded-xl space-y-4 mt-6">
                     <h3 className="text-xl text-[#8750F5] ">2024-Present</h3>
@@ -49,7 +49,7 @@ const ResumePage = () => {
 
             </div>
             <div className="mt-12 mb-12">
-                <h1 className="text-4xl text-[#8750F5] flex gap-3 items-center"> <GiAchievement /> ACHIEVEMENTS</h1>
+                <h1 className="text-2xl md:text-4xl text-[#8750F5] flex gap-3 items-center"> <GiAchievement /> ACHIEVEMENTS</h1>
 
                 <div data-aos="fade-up" data-aos-duration="1000" className="bg-white p-6 rounded-xl space-y-4 mt-6">
                     <h3 className="text-xl text-[#8750F5] ">2024</h3>
