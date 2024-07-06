@@ -6,7 +6,7 @@ const ImpactVolens = () => {
     <div className="mt-12 mb-12">
       <div className="hero bg-[#ffffff] rounded-xl">
         <div className="hero-content flex-col lg:flex-row gap-8">
-          <Image src="/impact-volens.png" alt="project-image"  width={600} height={400} className="max-w-sm rounded-lg shadow-2xl" />
+          <Image src="/impact-volens.png" alt="project-image"  width={500} height={400} className="max-w-sm rounded-lg shadow-2xl" />
           <div>
             <h1 className="text-2xl font-bold">Impact Volens</h1>
             <p className="py-6">
@@ -25,7 +25,7 @@ const ImpactVolens = () => {
               <li className="list-disc "> Organizations update or delete posts to stay current.</li>
             </ul>
 
-            <div className="mt-4 flex gap-2">
+            <div className="mt-4 flex flex-wrap gap-2">
               <button className="btn btn-xs bg-[#8750F5] text-white">
                 MongoDB
               </button>
