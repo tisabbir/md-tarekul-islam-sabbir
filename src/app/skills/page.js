@@ -22,36 +22,36 @@ const SkillsPage = () => {
         }
       />
 
-      <div data-aos='fade-down' className="flex gap-4 mt-12 justify-between text-[#8750F5]">
+      <div data-aos='fade-down' className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 mt-12 justify-between text-[#8750F5]">
 
-        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center">
+        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center mx-auto">
           <FaReact className="text-8xl mx-auto" />
           <p className="text-2xl font-bold ">React</p>
         </div>
 
-        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center">
+        <div className="bg-base-200 py-6 px-3 rounded-lg max-w-fit space-y-6 text-center mx-auto">
           <IoLogoJavascript className="text-8xl mx-auto" />
           <p className="text-2xl font-bold">JavaScript</p>
         </div>
 
-        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center">
+        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center mx-auto">
           <SiMongodb className="text-8xl mx-auto" />
           <p className="text-2xl font-bold">MongoDB</p>
         </div>
 
-        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center">
+        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center mx-auto">
           <FaNodeJs className="text-8xl mx-auto" />
           <p className="text-2xl font-bold">Node JS</p>
         </div>
-        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center">
+        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center mx-auto">
           <SiExpress className="text-8xl mx-auto" />
           <p className="text-2xl font-bold">Express</p>
         </div>
-        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center">
+        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center mx-auto">
           <SiFirebase className="text-8xl mx-auto" />
           <p className="text-2xl font-bold">Firebase</p>
         </div>
-        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center">
+        <div className="bg-base-200 p-6 rounded-lg max-w-fit space-y-6 text-center mx-auto">
           <SiTailwindcss className="text-8xl mx-auto" />
           <p className="text-2xl font-bold">Tailwind</p>
         </div>
