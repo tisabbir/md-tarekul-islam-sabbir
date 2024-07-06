@@ -17,7 +17,7 @@ const ContactPage = () => {
         <div className="mb-24">
             <SectionTitle heading={'Contacts'} subheading={'Stay in touch with me'} />
 
-           <div className="flex items-center justify-center gap-8">
+           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
            <div data-aos='fade-left' className="flex flex-col text-center p-4 bg-white rounded-xl gap-8 items-center mt-6">
                 <div>
                     <FaPhone className="text-6xl text-[#8750F5]" />
