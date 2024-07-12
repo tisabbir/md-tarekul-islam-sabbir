@@ -63,6 +63,21 @@ const ResumePage = () => {
                 </div>
                 
             </div>
+            <div className="mt-12 mb-12">
+                <h1 className="text-2xl md:text-4xl text-[#8750F5] flex gap-3 items-center"> <GiAchievement /> Courses & Certificates</h1>
+
+                <div data-aos="fade-up" data-aos-duration="1000" className="bg-white p-6 rounded-xl space-y-4 mt-6">
+                    <h3 className="text-xl text-[#8750F5] ">2024</h3>
+                    <h2 className="text-2xl text-black">Complete Web Development</h2>
+                    <p>Programming Hero</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" className="bg-white p-6 rounded-xl space-y-4 mt-6">
+                    <h3 className="text-xl text-[#8750F5] ">2024</h3>
+                    <h2 className="text-2xl text-black">Effective Communication</h2>
+                    <p>Great Learning</p>
+                </div>
+                
+            </div>
         </div>
     );
 };
