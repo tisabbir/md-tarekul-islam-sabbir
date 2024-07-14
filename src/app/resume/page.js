@@ -82,6 +82,11 @@ const ResumePage = () => {
                     <h2 className="text-2xl text-black">Principles of leadership</h2>
                     <p>Great Learning</p>
                 </div>
+                <div data-aos="fade-up" data-aos-duration="1000" className="bg-white p-6 rounded-xl space-y-4 mt-6">
+                    <h3 className="text-xl text-[#8750F5] ">2024</h3>
+                    <h2 className="text-2xl text-black">UI/UX design for beginners</h2>
+                    <p>Great Learning</p>
+                </div>
                 
             </div>
         </div>
